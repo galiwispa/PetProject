@@ -1,0 +1,46 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+}
+
+.dialogsItem {
+    padding: 10px;
+    display: inline-block;
+}
+
+.dialogsItem img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.dialog .active {
+    color: gold;
+}
+
+.dialog {
+    padding: 10px;
+}
+
+.dialog a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.dialog a:visited {
+    color:azure;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message {
+    float: left;
+    background: silver;
+    padding: 1em 1.5em;
+    border-radius: 90px;
+    margin: 20px;
+}
+
